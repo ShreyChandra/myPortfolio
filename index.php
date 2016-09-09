@@ -1,1 +1,1 @@
-<? php header ('Location: /porto.html') ; ?>
+<? php include_once("porto.html") ; ?>
