@@ -1,0 +1,2 @@
+pic hide for small and extra small devices.
+resposive navbar "collapse"

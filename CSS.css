@@ -1,0 +1,117 @@
+
+body{
+background: #457fca; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #457fca , #5691c8); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #457fca , #5691c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+	
+/*	background: #24C6DC; /* fallback for old browsers 
+	background: -webkit-linear-gradient(to left, #24C6DC , #514A9D);  Chrome 10-25, Safari 5.1-6 
+	background: linear-gradient(to left, #24C6DC , #514A9D);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+      */        
+
+}
+
+.navbar a {
+    color: white;
+    
+}
+
+.jumbotron{
+
+
+		background: #232526; /* fallback for old browsers */
+		background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		        
+
+
+		position: relative;
+		height: 465px;
+		font-family: 'Shrikhand', cursive;
+
+		
+		background-size: 100%;
+		
+
+	
+}
+.allHead{
+	margin-left: 120px;
+	margin-top: 90px;
+}
+
+
+.hey{
+font-size: 40px;
+
+}
+#pic{
+	position: relative;
+	margin-right: 200px;
+	margin-top: -190px;
+}
+p{
+	font-size: 20px;
+	padding: 20px;
+
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+section {
+    display: table;
+    background: 0 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+#about .center {
+
+background: #457fca; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #457fca , #5691c8); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #457fca , #5691c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    padding: 75px 20px 100px;
+}
+
+#projects{
+
+
+background: #56ab2f; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #56ab2f , #a8e063); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #56ab2f , #a8e063); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                     
+}
+
+#contacts{
+
+
+background: #cb2d3e; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #cb2d3e , #ef473a); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #cb2d3e , #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+}
+
+i.fa.social-icon{
+	color: white;
+	margin-top: 100px;
+	margin-bottom: 130px;
+	font-size: 3em;
+	opacity: .6;
+}	   
+
+i.fa.social-icon:hover{
+
+font-size: 4em;
+opacity: 1;
+transition : .5s;
+
+}
