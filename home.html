@@ -1,145 +1,156 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<title>Welcome</title>
-
-<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
-<!-- <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700" rel="stylesheet"> -->
-<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
-
-
-<link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css" integrity="sha384-Wrgq82RsEean5tP3NK3zWAemiNEXofJsTwTyHmNb/iL3dP/sZJ4+7sOld1uqYJtE" crossorigin="anonymous">
-
-<link rel="stylesheet" href="CSS.css">
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
+	<meta charset="UTF-8">
+	<title>Hi.There.</title>
+	
+	<link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="home.css">
 
 </head>
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#home">Sc</a>
+	    </div>
+	    <div class="collapse navbar-collapse" id="myNavbar">
+	      
+	      <ul class="nav navbar-nav navbar-right">
+				      <li><a href="#about">About</a></li>
+				      <li><a href="#projects">Projects</a></li> 
+				      <li><a href="#foot">Contact</a></li> 
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+	<div class="jumbotron" id="home">
+		<div class="container">
+			<img src="runpic2.jpg" id="pic"  width="150" height="150">
+			<h1>Shrey Chandra</h1>
+			<h3>CSE Grad | Designer | Developer</h3>
 
-<body style="font-family: 'Josefin Slab', serif; color:white">
-
-
-<nav class="navbar navbar-inverse navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#home">Home</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      
-      <ul class="nav navbar-nav navbar-right">
-			      <li><a href="#about">About</a></li>
-			      <li><a href="#projects">Projects</a></li> 
-			      <li><a href="#contacts">Contact</a></li> 
-      </ul>
-      
-      
-    </div>
-  </div>
-
-</nav>
-  
-
-	<div class=" jumbotron" id="home">
-		<div class="allHead">
-			<h1>Shrey Chandra</h1>	
-			<h2>Think | Create | Learn</h2>
-			<h3>^The Motto</h3>
+			<hr>
+			<h4>Think | Create | Learn</h4>
+			<h4>^The Motto</h4>
 		</div>
-		<section class="hidden-xs hidden-sm">
-			<img src="polyart.jpg" class="img-circle" id="pic"  width="200" height="200" align="right" >
-		</section>
-		
 	</div>
 
-	<section id="about"  style="height=20px;">
+	<div id="about" class="container" >
 
-		<div class="center">
-			<h3 class="hey SecHead" align="center">About me</h3>
+		<h2>About me</h2>
+		<hr>
+		<p>I am a 22 year old guy with a passion for <strong>designing/development</strong>.</p>
+			<p>I like to build sites , Web Apps and also i am a bit picky when it comes to selecting colors.</p>
+			<p>I'm a <strong>Computer Science</strong> graduate from<strong > Jaypee University of Engineering and technology</strong>.</p>
+			<p>As of current I prefer to code in <strong>Ruby</strong>(Rails) and i try to combine my Frontend skills with it.</p>
+			<p>I let my creative side do much of the talking.</p><p>Always happy to <strong>learn</strong>.</p>
+	</div>
+	
+	<div id="divider">
+		<hr>
+	</div>
 
-			<p>I am a 22 year old guy with a passion for designing/development.</p>
-			<p>I like to build sites , Web Apps and also i am a bit picky when it comes to set of colors.</p>
-			<p>I'm a Computer Science graduate from Jaypee University of Engineering and technology.</p>
-			<p>As of current I prefer to code in Ruby(Rails) and i try to combine my Frontend skills with it.</p>
-			<p>I let my creative side do much of the talking.</p><p>Always happy to learn.</p>
-				<!-- <i class="fa fa-chevron-down down-arrow " ></i> -->
-		</div>
-
-	</section>
-
-	<section id="projects">
+	<div id="projects">
 		<div class="container">
-			<h3 class="hey SecHead">Projects</h3>
-			<div class="row">
-				<div class="col-sm-6">
-					<h2>Notifuzz</h2>
-					<p>Final year college project based on Android OS.<br>An App for managing Notifications on devices <br>not running latest Android OS.<br>No more cluttering and hastle.</p>
-				</div>
-				<div class="col-sm-6">
-					<h2>This Site</h2>
-					<p>Yes,this site is to showcase my web dev skills.<br>Its a simple mixture of Bootstrap ,HTML5,CSS3 and a lil bit of Jquery.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-sm-6">
-					<h2>Dev Box</h2>
-					<p>A Saas project made on Ruby(Rails).<br>Its a community where developers meet <br>Entrepreneurs and Investors.</p>
-				</div>
-				<div class="col-sm-6">
-					<h2>SimpleTodo</h2>
-					<p>A simple Web App on Rails designed for<br>users that lets them manage their daily tasks.</p>
-				</div>
-			</div>
+			<h2>Projects</h2>
+			<hr>
+				<div class="row">
+					
+					<div class="col-sm-4">
+						<h3>Dev Box</h3>
+						<p>A Saas project made on Ruby(Rails).Its a community where developers meet Entrepreneurs and Investors.</p>
+					</div>
+					<div class="col-sm-4">
+						<h3>SimpleTodo</h3>
+						<p>A simple Web App on Rails designed for users that lets them manage their daily tasks.</p>
+					</div>
 
+					<div class="col-sm-4">
+						<h3>Notifuzz</h3>
+						<p>Final year college project based on Android OS.An App for managing Notifications on devices not running latest Android OS.No more cluttering and hastle.</p>
+					</div>
+					
+					
+				</div>
+					
+				<div class="row secondprolist" >
+										
+					<div class="col-sm-4">
+						<h3>This Site</h3>
+						<p>Yeah,why not ?Its a simple yet <strong><i>elegant</i></strong> mixture of Bootstrap ,HTML5 and CSS3 with a pinch Jquery.</p>
+					</div>					
+					<div class="col-sm-4">
+						<h3>SnapEm</h3>
+						<p>A simple Web App on Rails written in HAML to provide a platform for the photography enthusiasts, where they can showcase photos and others can see and like 'em.</p>
+					</div>
+					<div class="col-sm-4"></div>
+				</div>
 		</div>
-	</section>
-
-	<section id="contacts">
-		<div class="container">
-			<h3 class="hey SecHead">Get in touch Via</h3>
-			<div class="row">
-			<div class="col-sm-3">
-				<a href="https://github.com/ShreyChandra" target="_blank">
-					<i class="fa fa-github social-icon"></i>
-				</a>
+	</div>
+		
+		<footer id="foot">
+			<div class="container">
+				<h2>Get in touch Via</h2>
+				<hr>
+				
+				<div class="row">
+					<div class="col-sm-4">
+						<a href="https://github.com/ShreyChandra" target="_blank">
+							<span class="fa-stack  fa-4x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-github social-icon fa-stack-1x fa-inverse"></i>	
+							</span>
+						</a>
+					</div>
+					
+					<div class="col-sm-4">
+						<a href="https://www.facebook.com/Shrey.Chandra93" target="_blank">
+						<span class="fa-stack  fa-4x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-facebook social-icon fa-stack-1x fa-inverse"></i>	
+							</span>
+						</a>
+					</div>
+					<div class="col-sm-4">
+						<a href="https://www.linkedin.com/in/shrey-chandra-00631412a" target="_blank">
+						<span class="fa-stack  fa-4x">
+								<i class="fa fa-circle fa-stack-2x"></i>
+								<i class="fa fa-linkedin social-icon fa-stack-1x fa-inverse"></i>	
+							</span>
+							
+					
+					</div>
+				
+				</div>
+				<h4>Mail me at <span id="lastline">shrey.2012.chandra@gmail.com</span></h4>
 			</div>
-			<div class="col-sm-3">
-				<i class="fa fa-envelope social-icon"></i>
-			</div>
-			<div class="col-sm-3">
-				<a href="https://www.facebook.com/Shrey.Chandra93" target="_blank">
-				<i class="fa fa-facebook social-icon"></i>
-				</a>
-			</div>
-			<div class="col-sm-3"><i class="fa fa-linkedin social-icon"></i></div>
-			
-			</div>
-		</div>
-	</section>
-
-
+		</footer>
 
 	<script>$(function() {
-	$('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 750);
-        return false;
-      }
-    }
-  });
-});
-</script>
-
+		$('a[href*="#"]:not([href="#"])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		    if (target.length) {
+		        $('html, body').animate({
+		          scrollTop: target.offset().top
+		        }, 750);
+		        return false;
+		     }
+		    }
+		 });
+	});
+	</script>
+	
+	
 </body>
+</html>
