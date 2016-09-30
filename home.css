@@ -138,3 +138,13 @@ margin-top: 20px;
 	color:black;
 
 }
+
+#CV{
+	
+	display: none;
+}
+.solo:hover + #CV{
+	display:block;
+	color:white;
+}
+
