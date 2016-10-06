@@ -1,5 +1,7 @@
 body{
 	font-family: 'Merriweather Sans', serif;
+	overflow-x:hidden;
+
 }
 h2 {
  	margin-top: 25px;
@@ -186,9 +188,13 @@ margin-top: 20px;
 	}
 	#divider hr{
 		margin-bottom: 0px;
-		width: 340px;
+		width: 300px;
 	}
 	#about h2{
 		    padding-top: 5px;
+	}
+	.jumbotron hr{
+		padding: 0px 0px 0px;
+		width: 300px
 	}
 }
