@@ -148,3 +148,47 @@ margin-top: 20px;
 	color:white;
 }
 
+/*responive */ 
+@media (max-width: 991px) {
+	#about {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	#about p {
+	    text-align: center;
+	    font-size: 14px;
+	    padding: 7px;
+	    font-weight: 100
+	}
+}
+
+@media (max-width: 767px) {
+	#foot hr {
+		    padding-bottom: 0px;
+	}
+	#foot h4 {
+	    padding-top: 10px;
+	}
+	.fa-4x {
+    	font-size: 2em;
+	} 
+	#projects p{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	#projects .secondprolist {
+    padding-top: 0px;
+    margin-top: 0px;
+	}
+	#projects hr {
+	    padding-bottom: 0px;
+	    margin-bottom: 10px;
+	}
+	#divider hr{
+		margin-bottom: 0px;
+		width: 340px;
+	}
+	#about h2{
+		    padding-top: 5px;
+	}
+}
