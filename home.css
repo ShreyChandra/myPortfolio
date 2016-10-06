@@ -195,6 +195,7 @@ margin-top: 20px;
 	}
 	.jumbotron hr{
 		padding: 0px 0px 0px;
+		padding-bottom: 40px;
 		width: 300px
 	}
 }
